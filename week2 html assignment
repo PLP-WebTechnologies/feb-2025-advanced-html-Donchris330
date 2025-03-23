@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF -8">
+        <meta name="viewport" width -device width, initial-scale="1.0">
+        <title>HTML lists, images, tables and forms</title>
+        
+    </head>
+    <body>
+        <h2>HTML lists</h2>
+        <h3>ordered lists</h3>
+        <ol>
+            <li>Chris Ochishi</li>
+            <li>Praise Ogi</li>
+            <li>Sylvester Aka</li>
+            <li>Chidi Ali</li>
+            <li>Chinyere Ochishi</li>
+        </ol>
+        <h3>Un-ordered lists</h3>
+        <ul>
+            <li>Chukwudi Ani</li>
+            <li>Omar Obi</li>
+            <li>Godson ofor</li>
+            <li>Obi Justina</li>
+            <li>mathew Umar</li>
+        </ul>
+        <h3>Definition lists</h3>
+        <dl>
+            <dt>MAN</dt>
+            <dd>Manufacturers Association of Nigeria</dd>
+            <dt>SQL</dt>
+            <dd>Structured Query Language</dd>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+        </dl>
+        <h2>HTML images</h2>
+        <img src="https://images.pexels.com/photos/12749416/pexels-photo-12749416.jpeg?auto=compress&cs=tinysrgb&w=600">
+        height="600" width="600"
+        <img src="https://images.pexels.com/photos/10498901/pexels-photo-10498901.jpeg?auto=compress&cs=tinysrgb&w=600">
+        height="400" width="400"
+        <h3>HTML tables</h3>
+        <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Moses</td>
+                <td>30</td>
+                <td>Nigeria</td>
+                <td>Farmer</td>
+            </tr>
+            <tr>
+                <td>Eddy</td>
+                <td>25</td>
+                <td>Ghana</td>
+                <td>Doctor</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>20</td>
+                <td>South Afria</td>
+                <td>Engineering</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <tfoot>Student Name</tfoot>
+                <tfoot>Age</tfoot>
+                <tfoot>Country</tfoot>
+                <tfoot>Occupation</tfoot>
+            </tr>
+        </tfoot>
+        </table>
+        <h2>HTML forms</h2>
+        <form action="/submit-form" method="post">
+            <label for="full name">Full name</label>
+            <input types="text" id="full_name" name="full_name" required placeholder="your full name">
+            <br><br>
+            <label for="email">email:</label>
+            <input type="text" id="email" name="email" placeholder="example@mail.com">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="Address">Address:</label>
+            <input type="text" id="Address" name="address" placeholder="your address" required>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" value="female">female
+            <input type="radio" name="gender" value="male">male
+            <br><br>
+            <label for="Hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobby" value="travel">travel
+            <input type="checkbox" name="hobby" value="music">music
+            <input type="checkbox" name="hobby" value="reading">reading
+            <input type="checkbox" name="hobby" value="swimming">swimming
+            <br><br>
+            <label for="Country">Country:</label>
+            <select name="country" id="country">
+                <option>--select country--</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Tanzania">Tanzania</option>
+            </select>
+            <button type="submit">submit</button>
+            <input type="reset" value="cancel/reset">
+        </form>
+        <!--end of form-->
+    </body>
+</html
